@@ -2,7 +2,7 @@
 const fetchRecipes = async () => {
 
      try {
-      const data = await fetch('http://192.168.0.106:3001/data/all-recipes');
+      const data = await fetch('http://localhost:3001/data/all-recipes');
       const json = await data.json();
       
       return json;
